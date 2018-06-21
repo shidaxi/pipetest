@@ -1,0 +1,8 @@
+cpu: 500m
+memory: 2Gi
+hubAccount: ocean-hub-lanxun
+k8sAccount: lanxun-test
+livenessProbeApi: /health
+livenessProbePort: 8081
+readinessProbeApi: /health
+readinessProbePort: 8081
