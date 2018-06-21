@@ -1,0 +1,13 @@
+appname: pipetest1
+project: cpg
+templateId: springboot-app-template
+buildCmd: mv index.txt index.html
+cpu: 500m
+hubAccount: ocean-hub-lanxun
+k8sAccount: lanxun-test
+livenessProbeApi: /
+livenessProbePort: 80
+memory: 2Gi
+readinessProbeApi: /
+readinessProbePort: 80
+repo: pipetest
